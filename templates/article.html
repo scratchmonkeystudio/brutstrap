@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block content %}
+	<div class='article'>
+		<div class="article-title">{{ article.title }}</div>
+		<div class="metadata">{% include "metadata.html" %}</div>
+		<div>{{ article.content }}</div>
+	</div>
+{% endblock %}
